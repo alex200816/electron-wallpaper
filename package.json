@@ -38,7 +38,7 @@
     "electron-egg",
     "ElectronEgg"
   ],
-  "author": "哆啦好梦, Inc <530353222@qq.com>",
+  "author": "Alex, Inc <530353222@qq.com>",
   "license": "Apache",
   "devDependencies": {
     "debug": "^4.3.3",

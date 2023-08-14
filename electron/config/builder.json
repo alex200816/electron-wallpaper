@@ -1,7 +1,7 @@
 {
   "productName": "壁纸工具",
   "appId": "com.alex.wallpaper",
-  "copyright": "© 2023 哆啦好梦 Technology Co., Ltd.",
+  "copyright": "© 2023 Alex Technology Co., Ltd.",
   "directories": {
     "output": "out"
   },
@@ -11,7 +11,8 @@
     "!frontend/",
     "!run/",
     "!logs/",
-    "!data/"
+    "!data/",
+    "!electron/"
   ],
   "extraResources": {
     "from": "build/extraResources/",
