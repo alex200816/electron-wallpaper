@@ -25,12 +25,12 @@
     "build-l-armv7l": "electron-builder --config=./electron/config/builder.json -l=deb --armv7l",
     "build-lr-64": "electron-builder --config=./electron/config/builder.json -l=rpm --x64",
     "build-lp-64": "electron-builder --config=./electron/config/builder.json -l=pacman --x64",
-    "rd": "ee-core rd --dist_dir=./frontend/dist",
-    "encrypt": "ee-core encrypt",
-    "clean": "ee-core clean",
+    "rd": "ee-bin rd",
+    "encrypt": "ee-bin encrypt",
+    "clean": "ee-bin clean",
     "rebuild": "electron-rebuild",
     "re-sqlite": "electron-rebuild -f -w better-sqlite3",
-    "icon": "ee-core icon -i /public/images/logo.png -o /build/icons/"
+    "icon": "ee-bin icon"
   },
   "repository": "https://github.com/dromara/electron-egg.git",
   "keywords": [
@@ -41,10 +41,11 @@
   "author": "Alex, Inc <530353222@qq.com>",
   "license": "Apache",
   "devDependencies": {
+    "@electron/rebuild": "^3.2.13",
     "debug": "^4.3.3",
+    "ee-bin": "^1.1.0",
     "electron": "^21.4.4",
     "electron-builder": "^23.6.0",
-    "@electron/rebuild": "^3.2.13",
     "nodemon": "^2.0.16"
   },
   "dependencies": {
